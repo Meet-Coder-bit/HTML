@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <hr>
+    <h1 align="center">Normal Tables</h1>
+    <hr>
+    <table border="5" align="center">
+        <thead>
+            <tr>
+            <th>NO.</th>
+            <th>Full Name</th>
+                <th>roll num</th>
+                    <th>gr id</th>
+        </thead>
+        <tbody>
+            <tr>
+            <td>1.</td>
+            <td>savan</td>
+            <td>1</td>
+            <td>12345678</tr>
+            <tr>
+                <td>2.</td>
+                <td>meet</td>
+                <td>3</td>
+                <td>36925814</td>
+            </tr>
+            <tr>
+                
+                    <td>3.</td>
+                    <td>neel</td>
+                    <td>4</td>
+                    <td>98765432</td>
+                
+            </tr>
+            <tr>
+                
+                <td>4.</td>
+                <td>jainish</td>
+                <td>5</td>
+                <td>74185296</td>
+            
+        </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table border="5" align="center">
+    <thead>
+        <tr>
+          <th>NO.</th>
+          <th>Coffee</th>
+          <th>Price</th>
+          
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>1</td>
+          <td>Hot Coffee</td>
+          <td>60$</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Cold Coffee</td>
+          <td>50$</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Black Coffee</td>
+            <td>56$</td>
+          </tr>
+    </tbody>
+      </table>
+    </table>
+
+    <hr>
+
+    <table border="5" align="center">
+    <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>  
+          <th>Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Bhuva Jasmin</td>
+          <td>22</td>
+          <td>Britain</td>
+        </tr>
+        <tr>
+          <td>Kagathra Divysh</td>
+          <td>25</td>
+          <td>USA</td>
+        </tr>
+        <tr>
+          <td>Bhadja Arsh</td>
+          <td>25</td>
+          <td>UK</td>
+        </tr>
+    </tbody>
+      </table>
+
+      <hr>
+
+    <table border="5" align="center">
+        <thead>
+            <tr>
+              <th>NO.</th>
+              <th>Fruit Name</th>
+              <th>Price/kg</th>
+              
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>1</td>
+              <td>Orange</td>
+              <td>Rs.80</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Mango</td>
+              <td>Rs.250</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pineapple</td>
+                <td>Rs.120</td>
+              </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <hr>
+    <h1 align="center">Rowspan and Colspan Tables</h1>
+    <hr>
+
+    <table border="5" align="center">
+        <thead>
+            <tr>
+              <th colspan="2">Language and Framworks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>PYTHON</td>
+              <td>Django</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Javascript</td>
+              <td>React.js</td>
+            </tr>
+            <tr>
+                <td>Vue.js</td>
+            </tr>
+            <tr>
+                <td>Ruby</td>
+                <td>Ruby on Rails</td>
+              </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <table border="5" align="center">
+        <thead>
+            <tr>
+            <th>NO.</th>
+            <th>Name</th>
+            <th>Subject</th>       
+            <th>Marks</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">1</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Neel</td>
+                <td>Maths</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Computer</td>
+                <td>70</td>
+            </tr>
+            <tbody>
+                <tr>
+                    <td rowspan="4">2</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Meet</td>
+                    <td>Maths</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>Computer</td>
+                    <td>90</td>
+                </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <table border="5" align="center">
+        <thead>
+        <th colspan="6">Time Table</th>
+        </thead>
+        <tbody>
+        <tr>
+        <th rowspan="6">Hours</th>
+         <th>Mon</th>
+         <th>Tue</th>
+         <th>Wed</th>
+         <th>Thu</th>
+         <th>Fri</th>
+        </tr>
+        <tr>
+         <td>Math</td>
+         <td>Science</td>
+         <td>Math</td>
+         <td>Science</td>
+         <td>Arts</td>
+        </tr>
+        <tr>
+         <td>Math</td>
+         <td>Science</td>
+         <td>Math</td>
+         <td>Science</td>
+         <td>Arts</td>
+        </tr>
+        <tr>
+         <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+         <td>Math</td>
+         <td>Science</td>
+         <td>Math</td>
+         <th colspan="2" rowspan="2">Project</th>
+        </tr>
+        <tr>
+         <td>Math</td>
+         <td>Science</td>
+         <td>Math</td>
+        </tr>
+       </tbody>
+    </table>
+    <hr>
+
+    <table border="5" align="center"> 
+        <thead> 
+            <tr> 
+                <th colspan="2">Name</th> 
+                <th>Class</th> 
+                <th>School</th> 
+            </tr> 
+        </thead> 
+        <tbody> 
+            <tr> 
+                <td rowspan="2">Mahima</td> 
+                <td rowspan="2">Gupta</td> 
+                <td>11</td> 
+                <td rowspan="2">MVM School</td> 
+            </tr> 
+            <tr> 
+                <td>A</td> 
+            </tr> 
+            <tr> 
+                <td rowspan="2">Sri</td> 
+                <td rowspan="2">Krishn</td> 
+                <td>3</td> 
+                <td rowspan="2">LMS School</td> 
+            </tr> 
+            <tr> 
+                <td>B</td> 
+            </tr> 
+            <tr> 
+                <td rowspan="2">Shivika</td> 
+                <td rowspan="2">Goyal</td> 
+                <td>5</td> 
+                <td rowspan="2">SCPM School</td> 
+            </tr> 
+            <tr> 
+                <td>A</td> 
+            </tr> 
+        </tbody> 
+    </table>
+
+    <hr>
+
+    
+
+
+
+
+</body>
+</html>
